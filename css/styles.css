@@ -1,0 +1,403 @@
+
+    
+
+.img-bannerM {
+  
+  display: block;
+  height: 90%;
+  width: 90%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+
+
+}
+
+.img-banner {
+
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.picture {
+
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+
+}
+
+body {
+
+  background-color: lightblue;
+}
+
+.bodytext {
+
+  background-color: white;
+
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 70px;
+
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+  font-size: 45px;
+  line-height: 65px;
+
+  text-align: center;
+
+
+}
+
+.MainHeadline {
+
+  text-align: center;
+  margin-top: 40px;
+  font-size: 100px;
+  line-height: 110px;
+
+}
+
+video {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  height: 90%;
+  width: 90%;
+
+
+
+
+}
+
+.pro {
+  font-weight: bolder;
+  color: darkred;
+}
+
+.video1 {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  height: 100%;
+  width: 100%;
+
+
+
+
+
+}
+
+  /* Footer Section */
+  
+  .footer2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    color:white;
+    background-color: black;
+    
+    }
+    
+    .footerindex {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:black;
+      background-color: yellow;
+      
+      }
+
+      .footerpicture {
+
+        display: block;
+        height: 60%;
+        width: 60%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+
+
+      }
+  
+      .bodytextpink {
+  
+        background-color: white;
+
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 70px;
+      
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+      
+        font-size: 45px;
+        line-height: 65px;
+      
+        text-align: center;
+            
+      
+      
+      }
+
+
+  
+    
+  /* DESKTOP VIEW BELOW */
+
+
+    @media screen and (min-width:1000px) {
+
+
+      .img-bannerM {
+  
+      display: none;    
+    
+      }
+
+      .img-banner {
+    
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+
+      .picture {
+
+        display: flex;
+        height: 40%;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 50px;
+        margin-bottom: 100px;
+      
+      }
+
+      .parent {
+
+        display: flex;
+        gap: 10px;
+
+
+      }
+
+      body {
+
+        background-color: white;
+      }
+
+      .bodytext {
+  
+        background-color: lightblue;
+        color: black;
+      
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 90px;
+      
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+        font-size: 25px;
+        line-height: 40px;
+      
+      
+      
+      }
+
+      .bodytextpink {
+  
+        background-color: lightpink;
+        color: black;
+      
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 90px;
+      
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+        font-size: 25px;
+        line-height: 40px;
+      
+      
+      
+      }
+
+
+      .MainHeadline {
+
+        text-align: center;
+        margin-top: 40px;
+
+        font-size: 40px;
+        line-height: 50px;
+
+        margin-bottom: 90px;
+      
+      }
+      
+      video {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 40px;
+        margin-bottom: 90px;
+
+        height: 80%;
+        width: 80%;
+
+        padding-bottom: 60px;
+
+
+
+
+      
+
+
+
+      }
+
+      .video1 {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        height: 30%;
+        width: 30%;
+
+
+
+
+      
+
+
+
+      }
+
+      .pro {
+        font-weight: bolder;
+        color: RED;
+      }
+      
+  /* Footer Section */
+  
+  .footer2 {
+    padding: 50px;
+    text-align: center;
+    font-size: 38px;
+    color:white;
+    background-color: black;
+    
+    }
+    
+    .footerindex {
+      padding: 50px;
+      text-align: center;
+      font-size: 38px;
+      color:black;
+      background-color: black;
+      
+      }
+
+      .footertext {
+
+        color: white;
+
+      }
+
+      .btn2 {
+
+        color: black;
+        background-color: pink;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+
+      }
+
+      .footerpicture {
+
+        display: block;
+        height: 50%;
+        width: 50%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        
+
+      }
+
+  
+    
+
+
+
+    }
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
